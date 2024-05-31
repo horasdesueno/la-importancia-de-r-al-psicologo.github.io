@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size:80%;
+    background-color: hsl(337, 46%, 72%);
+    }
+    /* porcentaje base, solo en el body */
+    p {
+    font-size:0.9em;
+    }
+    h1 {
+    font-size:2em;
+    }
+    h2 {
+    font-size:1.4em;
+    }
+    #pie {
+    font-size:1.2em;
+    }
+    .epigrafes {
+    font-size:1.1em;
+    }
+    /* fin de zona común a todas las resoluciones */
+    @media screen and (min-width:800px) {
+    body {
+    font-size:100%;
+    /* ampliamos los textos si mide más de 800px */
+    }
+    }
+    /* fin de la zona para más de 800px de ancho de pantalla */
+    @media screen and (min-width:1200px) {
+    body {
+    font-size:120%;
+    /* ampliamos más aún los textos si mide más de 1200px */
+    }
+}
+header{
+    width: 100%;
+    height: 190px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+h1{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.centrar{
+    text-align: center;
+}
+.bodycontacto{ 
+    text-align: center;
+ }
